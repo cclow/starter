@@ -19,6 +19,9 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  # Twitter Bootstrap ported to SASS
+  gem 'bootstrap-sass'
 end
 
 gem 'jquery-rails'

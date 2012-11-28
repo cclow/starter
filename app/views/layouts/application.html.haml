@@ -5,5 +5,16 @@
     = stylesheet_link_tag "application", media: "all"
     = csrf_meta_tags
   %body
-    = yield
+    .container
+      .navbar
+        .navbar-inner
+          %a.brand{href: '#'}Title
+          %ul.nav
+            %li.active
+              %a{href: '#'}Home
+            %li
+              %a{href: '#'}Sect1
+            %li
+              %a{href: '#'}Sect2
+      = yield
     = javascript_include_tag "application"
