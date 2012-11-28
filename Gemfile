@@ -50,6 +50,9 @@ group :development, :test do
 
   # Fixture replacement, test object factory
   gem 'factory_girl_rails'
+
+  # Turn off assets pipeline logging
+  gem 'quiet_assets'
 end
 
 group :development do
@@ -63,6 +66,12 @@ group :development do
 
   # Notification gem for OS X 10.8 notifications
   gem 'terminal-notifier-guard'
+
+  # Profiling tool for client-side, DB and server
+  gem 'rack-mini-profiler'
+
+  # DB optimisation tool
+  gem 'bullet'
 end
 
 group :test do
