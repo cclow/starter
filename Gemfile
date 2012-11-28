@@ -60,6 +60,9 @@ group :development do
 
   # OS X file system event monitoring
   gem 'rb-fsevent'
+
+  # Notification gem for OS X 10.8 notifications
+  gem 'terminal-notifier-guard'
 end
 
 group :test do
