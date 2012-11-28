@@ -29,6 +29,9 @@ gem 'jquery-rails'
 # Using haml as HTML template
 gem 'haml-rails'
 
+# Simplified form builder
+gem 'simple_form'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
