@@ -44,6 +44,12 @@ gem 'haml-rails'
 group :development, :test do
   # Use Rspec for rails testing framework
   gem 'rspec-rails'
+
+  # Random test data generator
+  gem 'faker'
+
+  # Fixture replacement, test object factory
+  gem 'factory_girl_rails'
 end
 
 group :test do
