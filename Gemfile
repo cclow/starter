@@ -40,3 +40,8 @@ gem 'haml-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :development, :test do
+  # Use Rspec for rails testing framework
+  gem 'rspec-rails'
+end
