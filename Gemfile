@@ -58,4 +58,7 @@ group :test do
 
   # Launchy for open_and_save_page support
   gem 'launchy'
+
+  # DatabaseCleaner manages the database cleaning strategies between tests
+  gem 'database_cleaner'
 end
