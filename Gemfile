@@ -52,6 +52,16 @@ group :development, :test do
   gem 'factory_girl_rails'
 end
 
+group :development do
+  # guards for bundler, migrate, and rspec
+  gem 'guard-bundler'
+  gem 'guard-migrate'
+  gem 'guard-rspec'
+
+  # OS X file system event monitoring
+  gem 'rb-fsevent'
+end
+
 group :test do
   # Additional Rails matchers from thoughtbot
   gem 'shoulda-matchers'
