@@ -45,3 +45,17 @@ group :development, :test do
   # Use Rspec for rails testing framework
   gem 'rspec-rails'
 end
+
+group :test do
+  # Additional Rails matchers from thoughtbot
+  gem 'shoulda-matchers'
+
+  # Capybara for web application testing
+  # also requires dependencies which are strangely not speced into the gem
+  gem 'capybara'
+  gem 'nokogiri'
+  gem 'xpath'
+
+  # Launchy for open_and_save_page support
+  gem 'launchy'
+end
